@@ -26,7 +26,6 @@ use Xgenious\Paymentgateway\Base\Gateways\SquarePay;
  * @method static payumoney()
  * @method static squareup()
  * @method static cinetpay()
- * @method static paytabs()
  * @method static zitopay()
  *
  *  @see InstamojoPay
