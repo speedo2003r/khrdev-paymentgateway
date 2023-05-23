@@ -1,6 +1,6 @@
 <?php
-namespace Xgenious\Paymentgateway\Traits;
-use Xgenious\Paymentgateway\Base\GlobalCurrency;
+namespace khrdev\Paymentgateway\Traits;
+use khrdev\Paymentgateway\Base\GlobalCurrency;
 
 trait IndianCurrencySupport
 {

@@ -1,13 +1,13 @@
 <?php
 
-namespace Xgenious\Paymentgateway\Base\Gateways;
+namespace khrdev\Paymentgateway\Base\Gateways;
 
 use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Str;
-use Xgenious\Paymentgateway\Base\PaymentGatewayBase;
-use Xgenious\Paymentgateway\Traits\ConvertUsdSupport;
-use Xgenious\Paymentgateway\Traits\CurrencySupport;
-use Xgenious\Paymentgateway\Traits\PaymentEnvironment;
+use khrdev\Paymentgateway\Base\PaymentGatewayBase;
+use khrdev\Paymentgateway\Traits\ConvertUsdSupport;
+use khrdev\Paymentgateway\Traits\CurrencySupport;
+use khrdev\Paymentgateway\Traits\PaymentEnvironment;
 
 class ZitoPay extends PaymentGatewayBase
 {

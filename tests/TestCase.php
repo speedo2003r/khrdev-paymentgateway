@@ -1,6 +1,6 @@
 <?php
 
-namespace Xgenious\Paymentgateway\Tests;
+namespace khrdev\Paymentgateway\Tests;
 
 use Orchestra\Testbench\TestCase as OrchestraTestCase;
 use Illuminate\Foundation\Application;

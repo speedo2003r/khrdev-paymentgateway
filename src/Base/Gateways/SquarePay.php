@@ -1,8 +1,8 @@
 <?php
 
-namespace Xgenious\Paymentgateway\Base\Gateways;
+namespace khrdev\Paymentgateway\Base\Gateways;
 
-use  Xgenious\Paymentgateway\Base\PaymentGatewayBase;
+use khrdev\Paymentgateway\Base\PaymentGatewayBase;
 use Square\SquareClient;
 use Square\Environment;
 use Square\Exceptions\ApiException;
@@ -11,8 +11,8 @@ use Square\Models\CreateOrderRequest;
 use Square\Models\CreateCheckoutRequest;
 use Square\Models\Order;
 use Square\Models\OrderLineItem;
-use Xgenious\Paymentgateway\Traits\CurrencySupport;
-use Xgenious\Paymentgateway\Traits\PaymentEnvironment;
+use khrdev\Paymentgateway\Traits\CurrencySupport;
+use khrdev\Paymentgateway\Traits\PaymentEnvironment;
 
 class SquarePay extends PaymentGatewayBase
 {

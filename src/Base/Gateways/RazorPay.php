@@ -1,13 +1,13 @@
 <?php
 
-namespace Xgenious\Paymentgateway\Base\Gateways;
+namespace khrdev\Paymentgateway\Base\Gateways;
 
 use Illuminate\Support\Facades\Http;
-use Xgenious\Paymentgateway\Base\PaymentGatewayBase;
+use khrdev\Paymentgateway\Base\PaymentGatewayBase;
 use Razorpay\Api\Api;
-use Xgenious\Paymentgateway\Traits\CurrencySupport;
-use Xgenious\Paymentgateway\Traits\IndianCurrencySupport;
-use Xgenious\Paymentgateway\Traits\PaymentEnvironment;
+use khrdev\Paymentgateway\Traits\CurrencySupport;
+use khrdev\Paymentgateway\Traits\IndianCurrencySupport;
+use khrdev\Paymentgateway\Traits\PaymentEnvironment;
 
 class RazorPay extends PaymentGatewayBase
 {

@@ -1,11 +1,11 @@
 <?php
 
-namespace Xgenious\Paymentgateway\Facades;
+namespace khrdev\Paymentgateway\Facades;
 
 use Illuminate\Support\Facades\Facade;
-use Xgenious\Paymentgateway\Base\Gateways\InstamojoPay;
-use Xgenious\Paymentgateway\Base\PaymentGatewayHelpers;
-use Xgenious\Paymentgateway\Base\Gateways\SquarePay;
+use khrdev\Paymentgateway\Base\Gateways\InstamojoPay;
+use khrdev\Paymentgateway\Base\PaymentGatewayHelpers;
+use khrdev\Paymentgateway\Base\Gateways\SquarePay;
 /**
  * @see GlobalCurrency
  * @method static script_currency_list()

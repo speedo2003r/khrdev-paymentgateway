@@ -1,6 +1,6 @@
 <?php
 
-namespace Xgenious\Paymentgateway\Console\Commands;
+namespace khrdev\Paymentgateway\Console\Commands;
 
 use Illuminate\Console\Command;
 

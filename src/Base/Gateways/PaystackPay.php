@@ -1,12 +1,12 @@
 <?php
 
-namespace Xgenious\Paymentgateway\Base\Gateways;
+namespace khrdev\Paymentgateway\Base\Gateways;
 
-use Xgenious\Paymentgateway\Base\GlobalCurrency;
-use Xgenious\Paymentgateway\Base\PaymentGatewayBase;
+use khrdev\Paymentgateway\Base\GlobalCurrency;
+use khrdev\Paymentgateway\Base\PaymentGatewayBase;
 use Unicodeveloper\Paystack\Facades\Paystack;
-use Xgenious\Paymentgateway\Traits\CurrencySupport;
-use Xgenious\Paymentgateway\Traits\PaymentEnvironment;
+use khrdev\Paymentgateway\Traits\CurrencySupport;
+use khrdev\Paymentgateway\Traits\PaymentEnvironment;
 
 
 class PaystackPay extends PaymentGatewayBase

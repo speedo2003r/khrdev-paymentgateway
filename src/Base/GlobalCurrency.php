@@ -1,6 +1,6 @@
 <?php
 
-namespace  Xgenious\Paymentgateway\Base;
+namespace  khrdev\Paymentgateway\Base;
 
 /**
  *  List of available currency in this package

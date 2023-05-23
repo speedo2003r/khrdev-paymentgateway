@@ -1,8 +1,8 @@
 <?php
 
-namespace Xgenious\Paymentgateway\Traits;
+namespace khrdev\Paymentgateway\Traits;
 
-use Xgenious\Paymentgateway\Base\Gateways\CashFreePay;
+use khrdev\Paymentgateway\Base\Gateways\CashFreePay;
 
 trait CurrencySupport
 {

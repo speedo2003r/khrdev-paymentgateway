@@ -1,11 +1,11 @@
 <?php
 
-namespace Xgenious\Paymentgateway\Base\Gateways;
-use Xgenious\Paymentgateway\Base\GlobalCurrency;
-use Xgenious\Paymentgateway\Base\PaymentGatewayBase;
-use Xgenious\Paymentgateway\Traits\CurrencySupport;
-use Xgenious\Paymentgateway\Traits\IndianCurrencySupport;
-use Xgenious\Paymentgateway\Traits\PaymentEnvironment;
+namespace khrdev\Paymentgateway\Base\Gateways;
+use khrdev\Paymentgateway\Base\GlobalCurrency;
+use khrdev\Paymentgateway\Base\PaymentGatewayBase;
+use khrdev\Paymentgateway\Traits\CurrencySupport;
+use khrdev\Paymentgateway\Traits\IndianCurrencySupport;
+use khrdev\Paymentgateway\Traits\PaymentEnvironment;
 
 
 class CashFreePay extends PaymentGatewayBase

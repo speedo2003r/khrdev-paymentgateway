@@ -1,11 +1,11 @@
 <?php
 
-namespace Xgenious\Paymentgateway\Http\Controllers;
+namespace khrdev\Paymentgateway\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Session;
 use Unicodeveloper\Paystack\Facades\Paystack;
-use Xgenious\Paymentgateway\Facades\XgPaymentGateway;
+use khrdev\Paymentgateway\Facades\XgPaymentGateway;
 
 class AuthorizeNetPaymentController extends Controller
 {

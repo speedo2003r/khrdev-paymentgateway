@@ -1,14 +1,14 @@
 <?php
 
-namespace Xgenious\Paymentgateway\Base\Gateways;
+namespace khrdev\Paymentgateway\Base\Gateways;
 
 use Illuminate\Support\Facades\Config;
-use Xgenious\Paymentgateway\Base\GlobalCurrency;
-use Xgenious\Paymentgateway\Base\PaymentGatewayBase;
+use khrdev\Paymentgateway\Base\GlobalCurrency;
+use khrdev\Paymentgateway\Base\PaymentGatewayBase;
 use Srmklive\PayPal\Services\PayPal as PayPalClient;
-use Xgenious\Paymentgateway\Traits\ConvertUsdSupport;
-use Xgenious\Paymentgateway\Traits\CurrencySupport;
-use Xgenious\Paymentgateway\Traits\PaymentEnvironment;
+use khrdev\Paymentgateway\Traits\ConvertUsdSupport;
+use khrdev\Paymentgateway\Traits\CurrencySupport;
+use khrdev\Paymentgateway\Traits\PaymentEnvironment;
 
 class PaypalPay extends PaymentGatewayBase
 {

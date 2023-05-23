@@ -1,11 +1,11 @@
 <?php
 
-namespace Xgenious\Paymentgateway\Base\Gateways;
+namespace khrdev\Paymentgateway\Base\Gateways;
 use Illuminate\Support\Facades\Config;
-use Xgenious\Paymentgateway\Base\PaymentGatewayBase;
-use Xgenious\Paymentgateway\Traits\CurrencySupport;
-use Xgenious\Paymentgateway\Traits\PaymentEnvironment;
-use Xgenious\Paymentgateway\Traits\ZarCurrencySupport;
+use khrdev\Paymentgateway\Base\PaymentGatewayBase;
+use khrdev\Paymentgateway\Traits\CurrencySupport;
+use khrdev\Paymentgateway\Traits\PaymentEnvironment;
+use khrdev\Paymentgateway\Traits\ZarCurrencySupport;
 
 
 class PayFastPay extends PaymentGatewayBase

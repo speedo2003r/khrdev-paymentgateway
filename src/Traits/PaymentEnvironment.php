@@ -1,6 +1,6 @@
 <?php
 
-namespace Xgenious\Paymentgateway\Traits;
+namespace khrdev\Paymentgateway\Traits;
 
 trait PaymentEnvironment
 {

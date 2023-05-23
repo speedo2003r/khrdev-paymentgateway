@@ -1,9 +1,9 @@
 <?php
 
-namespace Xgenious\Paymentgateway\Providers;
+namespace khrdev\Paymentgateway\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use Xgenious\Paymentgateway\Base\PaymentGatewayHelpers;
+use khrdev\Paymentgateway\Base\PaymentGatewayHelpers;
 
 class PaymentgatewayServiceProvider extends ServiceProvider
 {

@@ -1,24 +1,24 @@
 <?php
 
-namespace Xgenious\Paymentgateway\Base;
+namespace khrdev\Paymentgateway\Base;
 
-use Xgenious\Paymentgateway\Base\Gateways\BillPlzPay;
-use Xgenious\Paymentgateway\Base\Gateways\CashFreePay;
-use Xgenious\Paymentgateway\Base\Gateways\CinetPay;
-use Xgenious\Paymentgateway\Base\Gateways\FlutterwavePay;
-use Xgenious\Paymentgateway\Base\Gateways\InstamojoPay;
-use Xgenious\Paymentgateway\Base\Gateways\MidtransPay;
-use Xgenious\Paymentgateway\Base\Gateways\MolliePay;
-use Xgenious\Paymentgateway\Base\Gateways\PayFastPay;
-use Xgenious\Paymentgateway\Base\Gateways\PaypalPay;
-use Xgenious\Paymentgateway\Base\Gateways\PaystackPay;
-use Xgenious\Paymentgateway\Base\Gateways\PaytmPay;
-use Xgenious\Paymentgateway\Base\Gateways\PayUmoneyPay;
-use Xgenious\Paymentgateway\Base\Gateways\RazorPay;
-use Xgenious\Paymentgateway\Base\Gateways\SquarePay;
-use Xgenious\Paymentgateway\Base\Gateways\StripePay;
-use Xgenious\Paymentgateway\Base\Gateways\MarcadoPagoPay;
-use Xgenious\Paymentgateway\Base\Gateways\ZitoPay;
+use khrdev\Paymentgateway\Base\Gateways\BillPlzPay;
+use khrdev\Paymentgateway\Base\Gateways\CashFreePay;
+use khrdev\Paymentgateway\Base\Gateways\CinetPay;
+use khrdev\Paymentgateway\Base\Gateways\FlutterwavePay;
+use khrdev\Paymentgateway\Base\Gateways\InstamojoPay;
+use khrdev\Paymentgateway\Base\Gateways\MidtransPay;
+use khrdev\Paymentgateway\Base\Gateways\MolliePay;
+use khrdev\Paymentgateway\Base\Gateways\PayFastPay;
+use khrdev\Paymentgateway\Base\Gateways\PaypalPay;
+use khrdev\Paymentgateway\Base\Gateways\PaystackPay;
+use khrdev\Paymentgateway\Base\Gateways\PaytmPay;
+use khrdev\Paymentgateway\Base\Gateways\PayUmoneyPay;
+use khrdev\Paymentgateway\Base\Gateways\RazorPay;
+use khrdev\Paymentgateway\Base\Gateways\SquarePay;
+use khrdev\Paymentgateway\Base\Gateways\StripePay;
+use khrdev\Paymentgateway\Base\Gateways\MarcadoPagoPay;
+use khrdev\Paymentgateway\Base\Gateways\ZitoPay;
 
 
 /**

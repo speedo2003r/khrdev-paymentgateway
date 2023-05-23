@@ -1,14 +1,14 @@
 <?php
 
-namespace Xgenious\Paymentgateway\Base\Gateways;
+namespace khrdev\Paymentgateway\Base\Gateways;
 
-use  Xgenious\Paymentgateway\Base\PaymentGatewayBase;
+use khrdev\Paymentgateway\Base\PaymentGatewayBase;
 use Stripe\Charge;
 use Stripe\Stripe;
 use Stripe\StripeClient;
 use Stripe\Checkout\Session;
-use Xgenious\Paymentgateway\Traits\CurrencySupport;
-use Xgenious\Paymentgateway\Traits\PaymentEnvironment;
+use khrdev\Paymentgateway\Traits\CurrencySupport;
+use khrdev\Paymentgateway\Traits\PaymentEnvironment;
 
 class StripePay extends PaymentGatewayBase
 {

@@ -1,13 +1,13 @@
 <?php
 
-namespace Xgenious\Paymentgateway\Base\Gateways;
+namespace khrdev\Paymentgateway\Base\Gateways;
 
 use Anand\LaravelPaytmWallet\Facades\PaytmWallet;
 use Illuminate\Support\Str;
-use Xgenious\Paymentgateway\Base\PaymentGatewayBase;
-use Xgenious\Paymentgateway\Traits\CurrencySupport;
-use Xgenious\Paymentgateway\Traits\IndianCurrencySupport;
-use Xgenious\Paymentgateway\Traits\PaymentEnvironment;
+use khrdev\Paymentgateway\Base\PaymentGatewayBase;
+use khrdev\Paymentgateway\Traits\CurrencySupport;
+use khrdev\Paymentgateway\Traits\IndianCurrencySupport;
+use khrdev\Paymentgateway\Traits\PaymentEnvironment;
 
 class PaytmPay extends PaymentGatewayBase
 {

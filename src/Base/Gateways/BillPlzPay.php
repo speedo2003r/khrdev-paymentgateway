@@ -1,15 +1,15 @@
 <?php
 
-namespace Xgenious\Paymentgateway\Base\Gateways;
+namespace khrdev\Paymentgateway\Base\Gateways;
 
 use Billplz\Laravel\Billplz;
 use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Facades\Session;
-use Xgenious\Paymentgateway\Base\PaymentGatewayBase;
-use Xgenious\Paymentgateway\Base\PaymentGatewayHelpers;
-use Xgenious\Paymentgateway\Traits\CurrencySupport;
-use Xgenious\Paymentgateway\Traits\MyanmarCurrencySupport;
-use Xgenious\Paymentgateway\Traits\PaymentEnvironment;
+use khrdev\Paymentgateway\Base\PaymentGatewayBase;
+use khrdev\Paymentgateway\Base\PaymentGatewayHelpers;
+use khrdev\Paymentgateway\Traits\CurrencySupport;
+use khrdev\Paymentgateway\Traits\MyanmarCurrencySupport;
+use khrdev\Paymentgateway\Traits\PaymentEnvironment;
 use Billplz\Signature;
 use Illuminate\Support\Str;
 

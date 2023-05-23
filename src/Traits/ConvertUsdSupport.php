@@ -1,8 +1,8 @@
 <?php
 
-namespace Xgenious\Paymentgateway\Traits;
+namespace khrdev\Paymentgateway\Traits;
 
-use Xgenious\Paymentgateway\Base\GlobalCurrency;
+use khrdev\Paymentgateway\Base\GlobalCurrency;
 
 trait ConvertUsdSupport
 {
