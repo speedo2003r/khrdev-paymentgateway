@@ -16,8 +16,9 @@ Route::group(['middleware' => 'web'],function (){
     /**
      *  STRIPE PAYMENT ROUTE
      * */
-    Route::post('xgpayment-gateway/stipe',[\Xgenious\Paymentgateway\Http\Controllers\StripePaymentController::class,'charge_customer'])->name('xg.payment.gateway.stripe');
-    Route::post('xgpayment-gateway/paystack',[\Xgenious\Paymentgateway\Http\Controllers\PaystackPaymentController::class,'redirect_to_gateway'])->name('xg.payment.gateway.paystack');
-    Route::get('xgpayment-gateway/paystack-callback',[\Xgenious\Paymentgateway\Http\Controllers\PaystackPaymentController::class,'callback'])->name('xg.payment.gateway.paystack.callback');
+	Route::post('xgpayment-gateway/authorizenet',[\khrdev\Paymentgateway\Http\Controllers\AuthorizeNetPaymentController::class,'charge_customer'])->name('xg.payment.gateway.authorizenet');
+	Route::post('xgpayment-gateway/stipe',[\khrdev\Paymentgateway\Http\Controllers\StripePaymentController::class,'charge_customer'])->name('xg.payment.gateway.stripe');
+    Route::post('xgpayment-gateway/paystack',[\khrdev\Paymentgateway\Http\Controllers\PaystackPaymentController::class,'redirect_to_gateway'])->name('xg.payment.gateway.paystack');
+    Route::get('xgpayment-gateway/paystack-callback',[\khrdev\Paymentgateway\Http\Controllers\PaystackPaymentController::class,'callback'])->name('xg.payment.gateway.paystack.callback');
 });
 
